@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/importGeral.css">
+    <title>Lista de alunos</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.8/jquery.inputmask.min.js" integrity="sha512-efAcjYoYT0sXxQRtxGY37CKYmqsFVOIwMApaEbrxJr4RwqVVGw8o+Lfh/+59TU07+suZn1BWq4fDl5fdgyCNkw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body class="body">
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form action="../php/cadastroUsuario.php" method="POST" class="form-cadastro">
+                <input type="name" placeholder="Nome" name="nome" required/>
+                <input type="email" placeholder="Email" name="email" required/>
+                <input type="text" placeholder="CPF" name="cpf" class="mask-cpf" required/>
+                <input type="date" placeholder="Data de Nascimento" name="data-nascimento" required/>
+                <input type="text" placeholder="Telefone" name="telefone" class="mask-fone" required>
+                <input type="text" placeholder="Endereço" name="endereco" required/>
+                <input type="text" placeholder="Salário" name="salario" required/>
+                <input type="text" placeholder="Cargo" name="cargo" required/>
+                <br>
+                <input type="hidden" name="form-type" value="funcionario">
+                <button class="botao-cadastro" type="submit">Cadastrar Funcionário</button>
+                <p class="info-cadastro"></p>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form action="../php/cadastroUsuario.php" method="POST" class="form-cadastro">
+                <input type="name" placeholder="Nome" name="nome" required/>
+                <input type="email" placeholder="Email" name="email" required/>
+                <input type="text" placeholder="CPF" name="cpf" class="mask-cpf" required/>
+                <input type="date" placeholder="Data de Nascimento" name="data-nascimento" required/>
+                <input type="text" placeholder="Telefone" name="telefone" class="mask-fone" required/>
+                <input type="text" placeholder="Endereço" name="endereco" required/>
+                <br>
+                <input type="hidden" name="form-type" value="aluno">
+                <button class="botao-cadastro" type="submit">Cadastrar Cliente</button>
+                <p class="info-cadastro"></p>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-person-vcard-fill" viewBox="0 0 16 16">
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm9 1.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4a.5.5 0 0 0-.5.5M9 8a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4A.5.5 0 0 0 9 8m1 2.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 0-1h-3a.5.5 0 0 0-.5.5m-1 2C9 10.567 7.21 9 5 9c-2.086 0-3.8 1.398-3.984 3.181A1 1 0 0 0 2 13h6.96q.04-.245.04-.5M7 6a2 2 0 1 0-4 0 2 2 0 0 0 4 0"/>
+                      </svg>
+                    <p>Entar na tela de cadastro de usuários</p>
+                    <button class="ghost" id="signIn">Cadastrar Usuários</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-person-badge-fill" viewBox="0 0 16 16">
+                        <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2zm4.5 0a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1zM8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6m5 2.755C12.146 12.825 10.623 12 8 12s-4.146.826-5 1.755V14a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1z"/>
+                      </svg>
+                    <p>Entar na tela de cadastro de funcionários</p>
+                    <button class="ghost" id="signUp">Cadastrar Funcionários</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="../functions/cadastroUsuarios.js"></script>
+</body>
+</html>

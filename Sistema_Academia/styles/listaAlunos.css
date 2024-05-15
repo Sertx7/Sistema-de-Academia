@@ -1,0 +1,39 @@
+@import url("importGeral.css");
+
+body{
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+#openCadastrar{
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    color: #0b3cdd;
+
+    position: absolute;
+    top: 3%;
+    left: 95%;
+
+    text-align: center;
+}
+
+#closeCadastrar{
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    color: #0b3cdd;
+
+    position: absolute;
+    top: 3%;
+    left: 95%;
+
+    display: none;
+}
+
+#iframeCadastro{
+    width: 100vw;
+    height: 100vh;
+
+    margin-top: -4px;
+
+    display: none;
+}

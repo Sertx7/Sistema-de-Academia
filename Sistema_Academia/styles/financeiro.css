@@ -1,0 +1,98 @@
+.financeiro {
+    height: 90%;
+}
+
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    height: 100%;
+    overflow: hidden;
+}
+
+header {
+    background-color: #0b3cdd;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    align-items: center;
+}
+
+main {
+    margin-top: 5%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.summary {
+    width: 90%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.summary h2 {
+    margin-top: 0;
+}
+
+.summary-item {
+    margin-bottom: 10px;
+}
+
+.amount {
+    font-weight: bold;
+}
+
+.details {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f2f2f2;
+}
+
+.positive {
+    color: #00aa00;
+}
+
+.negative {
+    color: #aa0000;
+}
+
+footer {
+    background-color: #0b3cdd;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}

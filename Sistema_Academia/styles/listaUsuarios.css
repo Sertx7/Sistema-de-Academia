@@ -1,0 +1,36 @@
+@import url("index.css");
+
+:root{
+    --cor-primaria:#dadada;
+    --cor-secundaria:#0b3cdd;
+    --font-color: #ffffff;
+    --preto-padrao:#f6f5f7;
+}
+
+.navDir{
+    width: 50px;
+    height: 100px;
+
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    color: #0b3cdd;
+
+    position: absolute;
+    top: 3%;
+    left: 95%;
+}
+
+#openCadastrar{
+
+    text-align: center;
+}
+
+#closeCadastrar{
+
+    display: none;
+}
+
+#TrocarListaAlunos{
+    display: none;
+}
+

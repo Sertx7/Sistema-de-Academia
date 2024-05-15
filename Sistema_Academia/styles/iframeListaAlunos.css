@@ -1,0 +1,197 @@
+
+:root{
+    --primaria-color: blue;
+    --font-nome-color: rgb(36, 36, 36);
+    --font-assinatura-color: rgb(36, 36, 36);
+}
+
+.geral{
+    width: 50%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: auto;
+    margin-top: 15vh;
+}
+
+.superiorGeral{
+    display: flex;
+    justify-content: space-between;
+    
+}
+/* barra de pesquisa */
+.group {
+    position: relative;
+   }
+   
+   .input {
+    font-size: 16px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 200px;
+    border: none;
+    border-bottom: 1px solid #515151;
+    background: transparent;
+   }
+   
+   .input:focus {
+    outline: none;
+   }
+   
+   label {
+    color: #999;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+   }
+   
+   .input:focus ~ label, .input:valid ~ label {
+    top: -20px;
+    font-size: 14px;
+    color: #5264AE;
+   }
+   
+   .bar {
+    position: relative;
+    display: block;
+    width: 200px;
+   }
+   
+   .bar:before, .bar:after {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    background: #5264AE;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+   }
+   
+   .bar:before {
+    left: 50%;
+   }
+   
+   .bar:after {
+    right: 50%;
+   }
+   
+   .input:focus ~ .bar:before, .input:focus ~ .bar:after {
+    width: 50%;
+   }
+   
+   .highlight {
+    position: absolute;
+    height: 60%;
+    width: 100px;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5;
+   }
+   
+   .input:focus ~ .highlight {
+    animation: inputHighlighter 0.3s ease;
+   }
+   
+   @keyframes inputHighlighter {
+    from {
+     background: #5264AE;
+    }
+   
+    to {
+     width: 0;
+     background: transparent;
+    }
+   }
+/* - - - - */
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.titulo{
+    width: 130px;
+    height: 20px;
+    
+    background-color: var(--primaria-color);
+    margin-bottom: -1px;
+
+    padding: 5px;
+    border-radius: 0px  5px 5px 0px;
+    
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
+.usuario {
+    width: 100%;
+    height: 90px;
+    
+    border-left: 3px solid var(--primaria-color);
+    box-shadow: -2px 1px 4px -3px black;
+    border-radius: 3px;
+    margin-left: 2px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.parteSuperior{
+    width: 100%;
+    height: 40%;
+    background-color: #ffffff;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0px 20px 0px 0px;
+}
+.nome{
+    margin-left: -10%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--font-nome-color);
+}
+.assinatura{
+    font-family: initial;
+    color: var(--font-assinatura-color);
+
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.5);
+}
+
+.parteInferior{
+    width: 100%;
+    height: 60%;
+    background-color: #2b5cff;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0px 00px 20px 0px;
+}
+
