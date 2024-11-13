@@ -4,7 +4,7 @@
 
 O **Sistema de Academia** foi desenvolvido para gerenciar membros, treinos e pagamentos. O sistema permite que os usuários se registrem, acompanhem seu progresso e acessem informações sobre os treinos, enquanto os administradores podem gerenciar dados de membros, planos e pagamentos.
 
-En-US
+en-US
 
 The **Gym System** was developed to manage members, workouts, and payments. The system allows users to register, track their progress, and access workout information, while administrators can manage member data, plans, and payments.
 
@@ -20,7 +20,7 @@ The **Gym System** was developed to manage members, workouts, and payments. The 
 - Gestão de planos de pagamento e vencimentos.
 - Interface simples e intuitiva para usuários e administradores.
 
-En-US
+en-US
 
 - Member registration and login.
 - Workout and goal tracking.
@@ -31,7 +31,7 @@ En-US
 
 O projeto tem como objetivo oferecer uma solução eficiente para o gerenciamento de academias, facilitando o controle de dados para membros e administradores.
 
-En-US
+en-US
 
 The project aims to provide an efficient solution for gym management, streamlining data control for both members and administrators.
 
