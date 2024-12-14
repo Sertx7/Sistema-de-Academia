@@ -8,13 +8,13 @@ en-US
 
 The **Gym System** was developed to manage members, workouts, and payments. The system allows users to register, track their progress, and access workout information, while administrators can manage member data, plans, and payments.
 
-# **Tecnologias Utilizadas**:  /  **Technologies Used**:
+# **Tecnologias Utilizadas**  /  **Technologies Used**
 - **HTML**
 - **CSS**
 - **PHP**
 - **JavaScript**
 
-# **Funcionalidades**:  /  **Features**:
+# **Funcionalidades**  /  **Features**
 - Cadastro e login de membros.
 - Registro de treinos e metas.
 - Gestão de planos de pagamento e vencimentos.
@@ -27,7 +27,7 @@ en-US
 - Payment plan and due date management.
 - Simple and intuitive interface for both users and administrators.
 
-**Objetivo do Projeto**:  /  **Project Objective**:
+# **Objetivo do Projeto**  /  **Project Objective**
 
 O projeto tem como objetivo oferecer uma solução eficiente para o gerenciamento de academias, facilitando o controle de dados para membros e administradores.
 
