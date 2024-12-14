@@ -8,13 +8,13 @@ en-US
 
 The **Gym System** was developed to manage members, workouts, and payments. The system allows users to register, track their progress, and access workout information, while administrators can manage member data, plans, and payments.
 
-**Tecnologias Utilizadas**:  /  **Technologies Used**:
+# **Tecnologias Utilizadas**:  /  **Technologies Used**:
 - **HTML**
 - **CSS**
 - **PHP**
 - **JavaScript**
 
-**Funcionalidades**:  /  **Features**:
+# **Funcionalidades**:  /  **Features**:
 - Cadastro e login de membros.
 - Registro de treinos e metas.
 - Gestão de planos de pagamento e vencimentos.
